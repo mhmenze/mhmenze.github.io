@@ -686,7 +686,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 10%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -705,7 +705,7 @@ section,
 
 .hero p {
   margin: 5px 0 0 0;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -795,6 +795,21 @@ section,
 
 .about .about-me p {
   font-size: 18px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-tags span {
+  background: #0078ff;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
